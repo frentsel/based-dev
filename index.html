@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+
+	<title>JS - Intro</title>
+
+	<meta name="author" content="Alex Frentsel">
+
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/black.css" id="theme">
+
+	<!--[if lt IE 9]>
+	<script src="lib/js/html5shiv.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+	<canvas id="myCanvas"></canvas>
+	<div class="reveal">
+
+		<!-- Any section element inside of this container is displayed as a slide -->
+		<div class="slides">
+
+			<section id="intro">
+				<h1 class="blue">BaseDev 15</h1>
+				<blockquote>
+					Большинство хороших программистов делают свою работу не потому, что ожидают оплаты или признания, а потому что
+					получают удовольствие от программирования.
+				</blockquote>
+				<p>(Linus Torvalds)</p>
+				<hr>
+				<small>A-Level <a href="https://github.com/frentsel/js-intro" target="_blank">Alex Frentsel</a> &copy;
+					2019</small>
+			</section>
+
+			<section>
+
+				<section id="algorithm" data-transition="zoom">
+					<h1 class="blue">Алгоритм</h1>
+					<p class="fragment">Это последовательность шагов (команд,инструкций)<br>для достижения конечной цели</p>
+				</section>
+
+				<section id="algorithm-types" data-transition="zoom">
+					<h1 class="blue">Основные виды алгоритмов:</h1>
+					<ol>
+						<li class="fragment">Линейный</li>
+						<li class="fragment">Циклический</li>
+						<li class="fragment">Ветвление</li>
+						<li class="fragment">Смешанный</li>
+					</ol>
+				</section>
+
+				<section id="algorithm-props" data-transition="zoom">
+					<h1 class="blue">Основные свойства алгоритмов:</h1>
+					<ol>
+						<li class="blue fragment">Дискретность <span class="white fragment"> - алгоритм состоит из шагов (команд,
+								инструкций);</span></li>
+						<li class="blue fragment">Конечность <span class="white fragment"> - алгоритм должен вести к конечному
+								результату;</span></li>
+						<li class="blue fragment">Определенность <span class="white fragment"> - каждая команда должна точно и
+								однозначно определять действие;</span></li>
+						<li class="blue fragment">Понятность <span class="white fragment"> - исполняемые команды должны быть понятны
+								исполнителю.</span></li>
+					</ol>
+				</section>
+
+				<section id="programm" data-background="#330033" data-transition="fade">
+					<h1 class="blue">Программа</h1>
+					<p class="fragment">Это готовый для выполнения законченный алгоритм</p>
+					<p class="fragment">Или просто задача которую компьютер должен выполнить</p>
+				</section>
+
+				<section id="programming" data-background="#212121" data-transition="slide">
+					<h1 class="blue">Программирование</h1>
+					<p class="fragment">Это описание алгоритма программным языком</p>
+				</section>
+
+				<section id="dry" data-background="https://welance.de/en/wp-content/uploads/sites/2/2015/01/wp_workflow_2.jpg"
+					data-transition="zoom">
+				</section>
+
+			</section>
+
+			<section id="why-js" data-background="https://media.giphy.com/media/3ohjUZZEFfWJfaeKUE/giphy.gif"
+				data-transition="zoom">
+				<h1 class="blue">Javascript</h1>
+				<h2 class="fragment">Что Вы знаете о Javascript?</h2>
+			</section>
+
+			<section id="intro-js">
+				<h1 class="blue">Немного о главном</h1>
+				<img src="./img/love-ecmascript6.png" alt="">
+				<ul>
+					<li class="fragment">Для старта нужен только браузер;</li>
+					<li class="fragment">Простой в освоении;</li>
+					<li class="fragment">Гибкий и мощный;</li>
+					<li class="fragment">Работает как на клиенте так и на сервере;</li>
+					<li class="fragment">Огромное кол-во информации в открытом доступе.</li>
+				</ul>
+			</section>
+
+			<section data-background="./img/explosion.jpg">
+				<section id="explosion" data-background="https://media.giphy.com/media/l0NwHXQy3kUSfFF60/giphy.gif">
+					<h1>Готовьте ваши мозги!</h1>
+				</section>
+			</section>
+
+			<section id="console" data-transition="zoom">
+				<h1 class="blue">Консоль браузера</h1>
+				<p class="fragment">Это своеобразное окно нашего чата с браузером.</p>
+				<h5 class="blue fragment">Открывается комбинацией клавиш:</h5>
+				<ul class="fragment">
+					<li>Ctrl + Shift + I (Chrome, Firefox, Opera)</li>
+					<li>F12 (Internet Explorer)</li>
+				</ul>
+			</section>
+
+			<section id="variables">
+				<h1>Переменные</h1>
+			</section>
+
+			<section id="next" data-background="https://media.giphy.com/media/kVRBvsiOyBM8o/giphy.gif">
+				<h1>Всем все понятно?</h1>
+				<h2>Идем дальше?</h2>
+			</section>
+
+			<section id="typeof">
+				<h1>typeof</h1>
+			</section>
+
+			<section id="finish" data-transition="zoom">
+				<h1 class="blue">The end</h1>
+				<blockquote>
+					Как видно, совершенство достигается не тогда, когда уже нечего прибавить, но когда уже нечего отнять.
+				</blockquote>
+				<p>(Antoine de Saint-Exupéry)</p>
+				<hr>
+				<small>A-Level <a href="https://github.com/frentsel/js-intro" target="_blank">Alex Frentsel</a> &copy;
+					2019</small>
+			</section>
+
+		</div>
+
+	</div>
+	<script src="lib/js/head.min.js"></script>
+	<script src="js/particles.min.js"></script>
+	<script src="js/reveal.js"></script>
+	<script>
+
+		// More info https://github.com/hakimel/reveal.js#configuration
+		Reveal.initialize({
+			controls: true,
+			progress: true,
+			history: true,
+			center: true,
+
+			width: 1024,
+
+			transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+			// More info https://github.com/hakimel/reveal.js#dependencies
+			dependencies: [
+				{
+					src: 'lib/js/classList.js',
+					condition: function() {
+						return !document.body.classList;
+					}
+				},
+				{
+					src: 'plugin/markdown/marked.js',
+					condition: function() {
+						return !!document.querySelector('[data-markdown]');
+					}
+				},
+				{
+					src: 'plugin/markdown/markdown.js',
+					condition: function() {
+						return !!document.querySelector('[data-markdown]');
+					}
+				},
+				{ src: 'plugin/zoom-js/zoom.js', async: true },
+				{ src: 'plugin/notes/notes.js', async: true }
+			]
+		});
+
+		var particlesInit = function() {
+
+			Particles.init({
+				selector: '#myCanvas',
+				color: '#ffffff',
+				connectParticles: true,
+				minDistance: 90
+			});
+
+			particlesInit = function() { };
+		};
+
+		window.onhashchange = function() {
+
+			if (window.location.hash === '#/finish') {
+				particlesInit();
+			}
+		};
+
+		if (window.location.hash === '#/finish') {
+			particlesInit();
+		}
+
+		var sections = document.querySelectorAll('[data-background$=".gif"]');
+		[].forEach.call(sections, function(el) {
+			(new Image()).src = el.getAttribute('data-background');
+		});
+
+	</script>
+</body>
+
+</html>
